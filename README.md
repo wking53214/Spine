@@ -39,8 +39,15 @@ Spine holds **no key and no policy**.
   from TIE's typed `source_sha256_of`. A record TIE did not produce, one about another source, one with altered
   metadata, or one of another kind is refused.
 
-Spine is not an authority and not an orchestrator. It does not decide whether a document may pass; it makes sure the
-five gates are being asked about the same document.
+Spine is not an authority and not an orchestrator. It does not decide whether a document may pass. It supplies what a
+roster needs to check that the five gates are being asked about the same document. Spine does not make that check
+itself.
+
+Checked 2026-11-18 at the pinned commits (EXECUTED). With a root guard that says yes, `kernel_root` builds, and the
+kernel registers, a root whose content is a different text from the one TIE verified. That mismatch is caught only by
+a roster that compares the seats' readings, as `tests/test_roster.py` does. With no TIE evidence at all, `kernel_root`
+still returns a root of one uncited proposition at the default INFERENCE status, and the kernel registers it; the same
+root as a FACT is refused.
 
 ## Install and test
 
