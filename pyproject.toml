@@ -13,12 +13,12 @@ authors = [{ name = "William N. King" }]
 # Each dependency is pinned to an exact commit, so every install gets the same code. Spine is the one place that
 # imports them together; none of them imports another. Moving a pin is a deliberate, reviewed change.
 dependencies = [
-    "herald @ git+https://github.com/wking53214/HERALD.git@75c17ef3ad679f5a44b031cc8da55cd20c956215",
-    "tie-transcript-intelligence-engine @ git+https://github.com/wking53214/TIE.git@9d3ad38de169e2ce1794e577c240e89cba8ca027",
-    "conservation-kernel @ git+https://github.com/wking53214/Conservation_Kernel.git@cc42d3fc57dec0dd71aabd478b9585d2852a793e",
-    "governance-gateway @ git+https://github.com/wking53214/Governance_Gateway.git@5dead3cc1e6cf456a5974d2248b0e3a1c9d43631",
-    "cognitive-continuity-constitution @ git+https://github.com/wking53214/CCC.git@2379de87247aeb31c01f767c52cd462adc0f540d",
-    "cns @ git+https://github.com/wking53214/CNS.git@64c68b50382a69deaf602e62ad26cb3988c57326",
+    "herald @ git+https://github.com/wking53214/HERALD.git@2defe0d4069d7087f153ad4acc1833d2aca7250c",
+    "tie-transcript-intelligence-engine @ git+https://github.com/wking53214/TIE.git@05fbc47391b76fd83794d96b0225cc30324be398",
+    "conservation-kernel @ git+https://github.com/wking53214/Conservation_Kernel.git@b1b61fb56556e4047d125f5fe44333440e8c1c32",
+    "governance-gateway @ git+https://github.com/wking53214/Governance_Gateway.git@9135995111f801b24a3fa11f16e3fd760de1d83e",
+    "cognitive-continuity-constitution @ git+https://github.com/wking53214/CCC.git@d77c23c1cab2ed436e194100a8386b275740b556",
+    "cns @ git+https://github.com/wking53214/CNS.git@0015e5bcb9756a81138b2af4e5c9e4dca0106fc8",
 ]
 
 [project.optional-dependencies]
