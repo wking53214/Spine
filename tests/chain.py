@@ -29,7 +29,7 @@ def herald_read(text: str = INVOICE, source_id: str = "doc-1"):
     gate = ConfidenceGate()
     claims = [claim for claim, _ in run_governed(document, confidence_gate=gate).verdicts]
     decisions = [gate.submit(claim, document=document, confirmation=None) for claim in claims]
-    export = build_handoff(claims, decisions, document, export_signing_key=EXPORT_KEY).to_dict()
+    export = build_handoff(claims, decisions, document, export_signing_key=EXPORT_KEY, audience="TIE").to_dict()
     return document, gate, claims, export
 
 
