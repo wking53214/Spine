@@ -58,7 +58,7 @@ pytest -q
 
 Every dependency is pinned to an exact commit in `pyproject.toml`, so an install gets the same code every time; moving a
 pin is a reviewed change. `tests/test_roster.py` feeds Spine's output to the real gates and a real roster and checks the
-refusals: another text at CCC, an authority the gateway does not hold, a root built from other words.
+refusals: another text at CCC, an authority the gateway does not hold, a root built from other words. It runs the roster twice over CCC: once with CCC's two safety opt-outs on, and once built the way a deployment builds it (a write permission and a human verifier, no opt-outs), where the one write the roster judged goes through once and nothing else does. All six pins were moved together on 2026-11-19 and the 43 tests pass in a fresh install at them (EXECUTED).
 
 ## What this does not prove
 
