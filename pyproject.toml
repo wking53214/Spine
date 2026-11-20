@@ -16,7 +16,7 @@ dependencies = [
     "herald @ git+https://github.com/wking53214/HERALD.git@2defe0d4069d7087f153ad4acc1833d2aca7250c",
     "tie-transcript-intelligence-engine @ git+https://github.com/wking53214/TIE.git@05fbc47391b76fd83794d96b0225cc30324be398",
     "conservation-kernel @ git+https://github.com/wking53214/Conservation_Kernel.git@b1b61fb56556e4047d125f5fe44333440e8c1c32",
-    "governance-gateway @ git+https://github.com/wking53214/Governance_Gateway.git@9135995111f801b24a3fa11f16e3fd760de1d83e",
+    "governance-gateway @ git+https://github.com/wking53214/Governance_Gateway.git@e3664d0eb15ed5d227efd6b42900021433d6db06",
     "cognitive-continuity-constitution @ git+https://github.com/wking53214/CCC.git@d77c23c1cab2ed436e194100a8386b275740b556",
     "cns @ git+https://github.com/wking53214/CNS.git@0015e5bcb9756a81138b2af4e5c9e4dca0106fc8",
 ]
